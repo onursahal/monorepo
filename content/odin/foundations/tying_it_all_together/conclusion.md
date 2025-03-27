@@ -48,7 +48,7 @@ Sonunda hangi yolu seçtiğiniz önemli değil. Asıl önemli olan, ona bağlı 
 
 ### Hala karar veremediniz mi? O zaman fırıldağın kaderinizi belirlemesine izin verin!
 
-<iframe src="https://wheeldecide.com/e.php?c1=Ruby+on+Rails&c2=Node&col=rgy&t=The+Odin+Project+Path+Wheel&time=7" sandbox="allow-scripts allow-same-origin" width="250" height="250" scrolling="no" frameborder="0"></iframe>
+<iframe src="https://wheeldecide.com/e.php?c1=Ruby+on+Rails&c2=Node&col=rgy&t=The+Odin+Project+Path+Wheel&time=7" sandbox="allow-scripts allow-same-origin" width="250" height="250" scrolling="no" frameBorder="0"></iframe>
 
 Sonuçları sohbette paylaşmaktan çekinmeyin!
 

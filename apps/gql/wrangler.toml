@@ -1,0 +1,35 @@
+name = "gql"
+compatibility_date = "2024-03-26"
+compatibility_flags = ["nodejs_compat"]
+
+# Account configuration
+account_id = "31c5e446aecdd8bb013845d1a431f0a2"
+
+[site]
+bucket = ".next" #??
+include = ["public/**/*"] #??
+
+[build]
+command = "npm run build"
+directory = "apps/gql/dist"
+root = "/"
+cwd = "."
+
+[dev]
+port = 4000
+local_protocol = "http"
+
+[vars] #??
+NODE_ENV = "production" 
+KAMPUS_ENV = "production"
+
+[env.development]
+name = "gql"
+workers_dev = true
+vars = { NODE_ENV = "development", KAMPUS_ENV = "development" }
+
+# Secrets that need to be set in Cloudflare Dashboard
+# DATABASE_URL
+# NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+# CLERK_SECRET_KEY
+# CLERK_WEBHOOK_SECRET

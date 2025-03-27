@@ -11,7 +11,12 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:cov": "vitest --coverage",
-    "test:nowatch": "vitest run"
+    "test:nowatch": "vitest run",
+    "deploy:dev": "wrangler deploy --env development",
+    "deploy:staging": "wrangler deploy --env staging",
+    "deploy:prod": "wrangler deploy --env production",
+    "dev:cloudflare": "wrangler dev",
+    "secret:set": "wrangler secret put"
   },
   "volta": {
     "extends": "../../package.json"
@@ -43,6 +48,7 @@
     "html-metadata-parser": "2.0.4",
     "object-hash": "3.0.0",
     "svix": "1.15.0",
+    "wrangler": "^3.28.1",
     "znv": "0.3.2",
     "zod": "3.21.4"
   }

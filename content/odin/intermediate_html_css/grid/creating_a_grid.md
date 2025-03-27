@@ -1,5 +1,5 @@
 ---
-title: 'Grid Oluşturma'
+title: "Grid Oluşturma"
 ---
 
 ### Giriş
@@ -39,7 +39,8 @@ Dikkate almanız gerekiyor ki sadece direkt çocuk olan öğeler grid öğesi ol
 
 <div class="container">
   <div>Öğe 1</div>
-  <div>Öğe 2
+  <div>
+    Öğe 2
     <p>Ben bir grid öğesi değilim!</p>
   </div>
   <div>Öğe 3</div>
@@ -47,7 +48,7 @@ Dikkate almanız gerekiyor ki sadece direkt çocuk olan öğeler grid öğesi ol
 </div>
 ```
 
-Ama flexbox derslerinden öğrendiğiniz gibi grid öğeleri *aynı zamanda* grid konteyneri olabilir. Yani eğer isterseniz bir grid'in içerisinde başka bir grid yapabilirsiniz.
+Ama flexbox derslerinden öğrendiğiniz gibi grid öğeleri _aynı zamanda_ grid konteyneri olabilir. Yani eğer isterseniz bir grid'in içerisinde başka bir grid yapabilirsiniz.
 
 #### Grid'lerdeki çizgiler ve izler
 
@@ -129,7 +130,7 @@ Diyelim ki her yeni satırın belirlediğimiz satır çizgilerinin boyutlarına 
 }
 ```
 
-Varsayılan olarak CSS Grid ek olarak eklenen her içeriği belirsiz satır olarak olarak ekler. Bu, ekstra öğelerin gridin aşağısına yatay olarak ekleneceği anlamına gelir. Ekstra içeriğin yatay olarak eklenmesi nadiren istenilen bir şeydir *ama* bu `grid-auto-flows: column` özelliğiyle ve bu belirsiz çizgilerin boyutları `grid-auto-columns` özelliğiyle ayarlanabilir.
+Varsayılan olarak CSS Grid ek olarak eklenen her içeriği belirsiz satır olarak olarak ekler. Bu, ekstra öğelerin gridin aşağısına yatay olarak ekleneceği anlamına gelir. Ekstra içeriğin yatay olarak eklenmesi nadiren istenilen bir şeydir _ama_ bu `grid-auto-flows: column` özelliğiyle ve bu belirsiz çizgilerin boyutları `grid-auto-columns` özelliğiyle ayarlanabilir.
 
 ### Aralık
 
